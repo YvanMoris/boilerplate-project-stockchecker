@@ -23,7 +23,7 @@ app.route('/')
     res.sendFile(process.cwd() + '/views/index.html');
   });
 
-//For FCC testing purposes
+//For FCC testing purpose
 fccTestingRoutes(app);
 
 //Routing for API 
